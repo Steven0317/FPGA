@@ -1,0 +1,1 @@
+Each question folder contains either the question 1 project or question 2 project, executing the .vpr file should load all .vhd files and subsequent files needed

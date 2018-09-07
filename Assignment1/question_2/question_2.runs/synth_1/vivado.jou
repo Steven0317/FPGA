@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun May 27 22:18:43 2018
+# Process ID: 6448
+# Current directory: C:/Users/sfaul/Desktop/FPGA/question_2/question_2.runs/synth_1
+# Command line: vivado.exe -log bcd_2_bin.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bcd_2_bin.tcl
+# Log file: C:/Users/sfaul/Desktop/FPGA/question_2/question_2.runs/synth_1/bcd_2_bin.vds
+# Journal file: C:/Users/sfaul/Desktop/FPGA/question_2/question_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source bcd_2_bin.tcl -notrace

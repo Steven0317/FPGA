@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun May 27 17:14:53 2018
+# Process ID: 21956
+# Current directory: F:/FPGA/question1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14516 F:\FPGA\question1\question1.xpr
+# Log file: F:/FPGA/question1/vivado.log
+# Journal file: F:/FPGA/question1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/FPGA/question1/question1.xpr
+update_compile_order -fileset sources_1
+open_run impl_1

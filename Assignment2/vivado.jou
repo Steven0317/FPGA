@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jun 10 23:02:01 2018
+# Process ID: 8444
+# Current directory: C:/Users/Steven/Desktop/School/FPGA/hw4-steven-faulkner
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8168 C:\Users\Steven\Desktop\School\FPGA\hw4-steven-faulkner\hw4.xpr
+# Log file: C:/Users/Steven/Desktop/School/FPGA/hw4-steven-faulkner/vivado.log
+# Journal file: C:/Users/Steven/Desktop/School/FPGA/hw4-steven-faulkner\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Steven/Desktop/School/FPGA/hw4-steven-faulkner/hw4.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server -url localhost:3121
+current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183A89D7BA]
+set_property PARAM.FREQUENCY 15000000 [get_hw_targets */xilinx_tcf/Digilent/210183A89D7BA]
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Steven/Desktop/School/FPGA/hw4-steven-faulkner/hw4.runs/impl_1/Timer.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Steven/Desktop/School/FPGA/hw4-steven-faulkner/hw4.runs/impl_1/Timer.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

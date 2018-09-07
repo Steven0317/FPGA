@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun May 27 17:14:53 2018
+# Process ID: 21956
+# Current directory: F:/FPGA/question1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14516 F:\FPGA\question1\question1.xpr
+# Log file: F:/FPGA/question1/vivado.log
+# Journal file: F:/FPGA/question1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/FPGA/question1/question1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Steven/Desktop/FPGA/question1' since last save.
+WARNING: [Project 1-312] File not found as 'F:/../Documents/Basys-3-Master.xdc'; using path 'C:/Users/Steven/Documents/Basys-3-Master.xdc' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as 'F:/../Documents/Basys-3-Master.xdc'; using path 'C:/Users/Steven/Documents/Basys-3-Master.xdc' instead.
+WARNING: [Project 1-312] File not found as 'F:/../Documents/Basys-3-Master.xdc'; using path 'C:/Users/Steven/Documents/Basys-3-Master.xdc' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 781.883 ; gain = 107.867
+update_compile_order -fileset sources_1
+open_run impl_1
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+open_run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 974.453 ; gain = 172.629
+INFO: [Common 17-344] 'open_run' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May 27 17:16:42 2018...
